@@ -1,0 +1,5 @@
+.places__place {
+  display: grid;
+  grid: repeat(2, max-content) / repeat(2, 1fr);
+  margin-bottom: 80px;
+}
