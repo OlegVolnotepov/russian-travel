@@ -8,10 +8,11 @@
 }
 
 .header__lang-link:nth-child(1) {
-  text-decoration: underline;
+  text-decoration: none;
   margin-right: 18px;
+  border-bottom: 1px solid white;
 }
 
 .header__lang-link:nth-child(2) {
-  margin-right: 48px;
+  text-decoration: none;
 }

@@ -1,8 +1,14 @@
 .lead {
-  width: 984px;
-  height: 1005px;
-  outline: 2px solid red;
+  max-width: 984px;
+  max-height: 1005px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media (max-width: 1024px) {
+  .lead {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
 }

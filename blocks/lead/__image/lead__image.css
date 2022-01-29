@@ -1,5 +1,13 @@
 .lead__image {
-  width: 984px;
-  height: 615px;
+  width: 100%;
+  max-width: 984px;
+  height: auto;
   margin-top: 64px;
+  margin-right: 500px;
+}
+
+@media (max-width: 1024px) {
+  .lead__image {
+    margin-top: 56px;
+  }
 }

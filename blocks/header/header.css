@@ -2,9 +2,10 @@
   padding-top: 28px;
   position: relative;
   display: flex;
-  outline: 2px solid red;
   height: 52px;
-  min-width: 1184px;
+  max-width: 1184px;
   justify-content: space-between;
-  align-items: center;
+  align-items: end;
+  margin-left: 48px;
+  margin-right: 48px;
 }

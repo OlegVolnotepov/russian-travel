@@ -1,8 +1,12 @@
 .places {
-  width: 984px;
-  height: 3392px;
+  max-width: 984px;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid red;
   margin-top: 92px;
+}
+
+@media (max-width: 1024px) {
+  .places {
+    max-width: 928px;
+  }
 }

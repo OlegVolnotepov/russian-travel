@@ -1,7 +1,14 @@
 .intro {
-  width: 690px;
-  height: 429px;
-  outline: 2px solid red;
+  max-width: 984px;
+  max-height: 429px;
   margin-top: 92px;
-  margin-left: 148px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 1024px) {
+  .intro {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
 }
