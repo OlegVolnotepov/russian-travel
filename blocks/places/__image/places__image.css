@@ -13,3 +13,10 @@
     max-height: 440px;
   }
 }
+
+@media (max-width: 768px) {
+  .places__image {
+    max-width: 340px;
+    max-height: 340px;
+  }
+}

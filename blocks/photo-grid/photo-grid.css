@@ -16,3 +16,11 @@
     max-height: 942px;
   }
 }
+
+@media (max-width: 768px) {
+  .photo-grid {
+    grid: repeat(6, 1fr) / repeat(2, 1fr);
+    max-width: 720px;
+    max-height: 1664px;
+  }
+}

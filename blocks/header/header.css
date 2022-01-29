@@ -2,10 +2,17 @@
   padding-top: 28px;
   position: relative;
   display: flex;
-  height: 52px;
+  max-height: 52px;
   max-width: 1184px;
   justify-content: space-between;
   align-items: end;
-  margin-left: 48px;
-  margin-right: 48px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  .header {
+    max-width: 720px;
+    max-height: 52px;
+  }
 }
