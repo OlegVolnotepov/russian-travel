@@ -8,6 +8,8 @@
 @media (max-width: 1024px) {
   .places {
     max-width: 928px;
+    margin-left: 48px;
+    margin-right: 48px;
   }
 }
 
@@ -15,5 +17,15 @@
   .places {
     max-width: 720px;
     margin-top: 88px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .places {
+    margin: 0;
+    width: 100%;
+    margin-top: 64px;
   }
 }

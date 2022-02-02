@@ -9,12 +9,35 @@
   text-align: center;
   color: #ffffff;
   margin: auto;
-  padding-top: 245px;
+  padding-top: 256px;
   position: relative;
 }
 
 @media (max-width: 1024px) {
   .cover__title {
-    padding-top: 195px;
+    padding-top: 205px;
+  }
+}
+
+@media (max-width: 505px) {
+  .cover__title {
+    font-size: 60px;
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 430px) {
+  .cover__title {
+    font-size: 45px;
+    line-height: 45px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover__title {
+    padding: 0;
+    font-size: 32px;
+    line-height: 35px;
+    padding-top: 33px;
   }
 }

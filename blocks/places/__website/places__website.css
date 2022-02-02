@@ -1,3 +1,10 @@
 .places__website {
   align-self: end;
+  position: relative;
+}
+
+@media (max-width: 700px) {
+  .places__website {
+    align-self: flex-start;
+  }
 }

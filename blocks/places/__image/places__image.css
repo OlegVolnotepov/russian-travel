@@ -20,3 +20,19 @@
     max-height: 340px;
   }
 }
+
+@media (max-width: 320px) {
+  .places__image {
+    margin-top: 30px;
+    position: relative;
+    width: 320px;
+  }
+}
+
+@media (max-width: 319px) {
+  .places__image {
+    right: 0;
+    margin-top: 32px;
+    width: 100%;
+  }
+}

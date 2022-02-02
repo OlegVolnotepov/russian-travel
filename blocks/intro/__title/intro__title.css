@@ -7,3 +7,21 @@
   line-height: 58px;
   color: #ffffff;
 }
+
+@media (max-width: 670px) {
+  .intro__title {
+    line-height: 8vw;
+    font-size: 8vw;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+    max-width: 288px;
+    max-height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

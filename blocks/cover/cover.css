@@ -7,11 +7,10 @@
   margin-right: auto;
   position: relative;
   max-width: 1184px;
-  padding-bottom: 245px;
   height: auto;
 }
 
-.cover::before {
+.cover:before {
   content: "";
   position: absolute;
   left: 0;
@@ -23,9 +22,22 @@
   opacity: 0.3;
 }
 
+.cover:hover:before {
+  opacity: 0.8;
+  transition-duration: 0.3s;
+}
+
 @media (max-width: 1024px) {
   .cover {
     max-width: 1024px;
-    padding-bottom: 195px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover {
+    padding: 0;
+    max-width: 320px;
+    margin-top: 66px;
+    max-height: 200px;
   }
 }

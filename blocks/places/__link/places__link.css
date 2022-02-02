@@ -1,6 +1,5 @@
 .places__link {
-  width: 456px;
-  height: 22px;
+  max-width: 100%;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -9,4 +8,19 @@
   text-decoration-line: none;
   border-bottom: 1px solid white;
   color: #ffffff;
+  position: relative;
+}
+
+.places__link:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+@media (max-width: 320px) {
+  .places__link {
+    margin: 0;
+    margin-top: 12px;
+    display: block;
+    margin-left: 16px;
+  }
 }
