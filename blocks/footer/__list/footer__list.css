@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 715px) {
   .footer__list {
     display: block;
     margin-top: 32px;
