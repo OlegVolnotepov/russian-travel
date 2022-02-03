@@ -1,12 +1,11 @@
 .footer {
+  margin: 0 auto;
   display: flex;
   max-width: 1184px;
   max-height: 18px;
   justify-content: space-between;
   margin-top: 92px;
   padding-bottom: 24px;
-  margin-left: 48px;
-  margin-right: 48px;
 }
 
 @media (max-width: 768px) {

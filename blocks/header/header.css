@@ -6,8 +6,7 @@
   max-width: 1184px;
   justify-content: space-between;
   align-items: end;
-  margin-left: 48px;
-  margin-right: 48px;
+  margin: 0 auto;
 }
 
 @media (max-width: 1024px) {
