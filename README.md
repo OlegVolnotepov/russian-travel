@@ -1,6 +1,6 @@
 # Проект: Путешествие по России
 
-[https://olegvolnotepov.github.io/russian-travel/index.html]
+[Ссылка на проект](https://olegvolnotepov.github.io/russian-travel/index.html)
 
 ## Описание  
 Проект рассказывает о путешествиях по России и ее знаковых местах.  
