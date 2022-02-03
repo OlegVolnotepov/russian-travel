@@ -5,8 +5,8 @@
   font-display: swap;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  src: url("/fonts/inter//fonts/inter/Inter-Thin.woff2") format("woff2"),
-    url("/fonts/inter//fonts/inter/Inter-Thin.woff") format("woff");
+  src: url("/fonts/inter/Inter-Thin.woff2") format("woff2"),
+    url("../../vendor/fonts/inter//fonts/inter/Inter-Thin.woff") format("woff");
 }
 
 @font-face {
@@ -16,8 +16,8 @@
   font-display: swap;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  src: url("/fonts/inter/Inter-ExtraLight.woff2") format("woff2"),
-    url("/fonts/inter/Inter-ExtraLight.woff") format("woff");
+  src: url("../../vendor/fonts/inter/Inter-ExtraLight.woff2") format("woff2"),
+    url("../../vendor/fonts/inter/Inter-ExtraLight.woff") format("woff");
 }
 
 @font-face {
@@ -27,8 +27,8 @@
   font-display: swap;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  src: url("/fonts/inter/Inter-Light.woff2") format("woff2"),
-    url("/fonts/inter/Inter-Light.woff") format("woff");
+  src: url("../../vendor/fonts/inter/Inter-Light.woff2") format("woff2"),
+    url("../../vendor/fonts/inter/Inter-Light.woff") format("woff");
 }
 
 @font-face {
@@ -38,8 +38,8 @@
   font-display: swap;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  src: url("/fonts/inter/Inter-Regular.woff2") format("woff2"),
-    url("/fonts/inter/Inter-Regular.woff") format("woff");
+  src: url("../../vendor/fonts/inter/Inter-Regular.woff2") format("woff2"),
+    url("../../vendor/fonts/inter/Inter-Regular.woff") format("woff");
 }
 
 @font-face {
@@ -47,8 +47,8 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url("/fonts/inter/Inter-Medium.woff2") format("woff2"),
-    url("/fonts/inter/Inter-Medium.woff") format("woff");
+  src: url("../../vendor/fonts/inter/Inter-Medium.woff2") format("woff2"),
+    url("../../vendor/fonts/inter/Inter-Medium.woff") format("woff");
 }
 
 @font-face {
@@ -58,8 +58,8 @@
   font-display: swap;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  src: url("/fonts/inter/Inter-SemiBold.woff2") format("woff2"),
-    url("/fonts/inter/Inter-SemiBold.woff") format("woff");
+  src: url("../../vendor/fonts/inter/Inter-SemiBold.woff2") format("woff2"),
+    url("../../vendor/fonts/inter/Inter-SemiBold.woff") format("woff");
 }
 
 @font-face {
@@ -69,8 +69,8 @@
   font-display: swap;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  src: url("/fonts/inter/Inter-Bold.woff2") format("woff2"),
-    url("/fonts/inter/Inter-Bold.woff") format("woff");
+  src: url("../../vendor/fonts/inter/Inter-Bold.woff2") format("woff2"),
+    url("../../vendor/fonts/inter/Inter-Bold.woff") format("woff");
 }
 
 @font-face {
@@ -80,8 +80,8 @@
   font-display: swap;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  src: url("/fonts/inter/Inter-ExtraBold.woff2") format("woff2"),
-    url("/fonts/inter/Inter-ExtraBold.woff") format("woff");
+  src: url("../../vendor/fonts/inter/Inter-ExtraBold.woff2") format("woff2"),
+    url("../../vendor/fonts/inter/Inter-ExtraBold.woff") format("woff");
 }
 
 @font-face {
@@ -91,6 +91,6 @@
   font-display: swap;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  src: url("/fonts/inter/Inter-Black.woff2") format("woff2"),
-    url("/fonts/inter/Inter-Black.woff") format("woff");
+  src: url("../../vendor/fonts/inter/Inter-Black.woff2") format("woff2"),
+    url("../../vendor/fonts/inter/Inter-Black.woff") format("woff");
 }
