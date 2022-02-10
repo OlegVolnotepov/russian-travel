@@ -1,5 +1,4 @@
 .places__title {
-  font-family: Inter;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -7,7 +6,6 @@
   color: #ffffff;
   margin: 0;
   max-width: 100%;
-  max-height: 152px;
 }
 
 @media (max-width: 768px) {
@@ -22,7 +20,7 @@
   .places__title {
     font-size: 32px;
     line-height: 35px;
-    width: 100%;
     margin-left: 16px;
+    margin-bottom: 32px;
   }
 }

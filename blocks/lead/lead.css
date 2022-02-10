@@ -1,6 +1,5 @@
 .lead {
   max-width: 984px;
-  max-height: 1005px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -11,14 +10,12 @@
     margin-left: 48px;
     margin-right: 48px;
     max-width: 928px;
-    max-height: 962px;
   }
 }
 
 @media (max-width: 768px) {
   .lead {
     max-width: 768px;
-    max-height: 862px;
     margin: 0;
   }
 }
